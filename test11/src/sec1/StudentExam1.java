@@ -2,7 +2,7 @@ package sec1;
 
 public class StudentExam1 {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws CloneNotSupportedException {
 		Student su1 = new Student();
 		Student su2 = new Student();
 		su2 = su1;			//얕은 복제
