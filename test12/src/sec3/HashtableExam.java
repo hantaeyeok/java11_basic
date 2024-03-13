@@ -6,7 +6,7 @@ import java.util.Set;
 public class HashtableExam {
 
 	public static void main(String[] args) {
-		//Hash table 
+		//Hash table 객체 생성
 		Hashtable<String, Integer> hash = new Hashtable<>();
 		hash.put("서울", 1);
 		hash.put("부산", 2);

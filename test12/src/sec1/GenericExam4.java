@@ -1,8 +1,8 @@
 package sec1;
 
 class Point<T, V>{ //좌표점 제네릭
-	T x;
-	V y;
+	T x;	//x 축에서의 (가로) 위치
+	V y;	//y 축에서의 (세로) 위치
 //	public Point() {}
 	public Point(T x, V y) {
 		super();

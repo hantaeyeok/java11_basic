@@ -53,6 +53,11 @@ public class Board {
 	public void setCnt(int cnt) {
 		this.cnt = cnt;
 	}
+	@Override
+	public String toString() {
+		return "Board [bno=" + bno + ", title=" + title + ", content=" + content + ", author=" + author + ", resdate="
+				+ resdate + ", cnt=" + cnt + "]";
+	}
 	
 	
 }

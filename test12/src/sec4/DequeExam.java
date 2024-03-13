@@ -3,7 +3,9 @@ package sec4;
 import java.util.Deque;
 import java.util.LinkedList;
 
-//Deque : LIFO 와 FIFO 가 모두 가능한 구조 -> 스택과 큐의 혼합 구조로서 양쪽에서 입력과 출력이 모두 가능
+//Deque : LIFO 와 FIFO 가 모두 가능한 구조 
+//-> 스택과 큐의 혼합 구조로서 양쪽에서 입력과 출력이 모두 가능
+
 public class DequeExam {
 	public static void main(String[] args) {
 		Deque<String> d = new LinkedList<>();
